@@ -447,3 +447,64 @@ h3 {
   min-width: 220px;
   align-self: center;
 }
+
+
+.product_superfood {
+    background-position-y: 250px;
+    height: 950px;
+}
+
+.product_superfood .items {
+    margin-top: 170px;
+}
+
+.product-not-board {
+    background-image: none;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    z-index: 10;
+}
+
+.product-not-board .items .item {
+    margin-right: 240px;
+}
+
+.product-not-board .items .item:last-child {
+    margin-right: 0;
+}
+
+
+.product-not-board .items .item img {
+    padding-bottom: 20px;
+}
+
+.product-not-board .items .item .label img {
+    padding-bottom: 0;
+}
+
+.board-elements {
+    position: absolute;
+    width: 100%;
+}
+
+.board-elements .bow {
+    position: absolute;
+    top: 260px;
+    left: -145px;
+}
+
+.board-elements .beans {
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+
+.board-elements .spinach {
+    position: absolute;
+    top: 135px;
+    right: -85px;
+}
+
+

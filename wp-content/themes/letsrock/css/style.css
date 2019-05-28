@@ -351,14 +351,14 @@ ul.list li:before {
 }
 .parallax #sec-11 {
   right: 0;
-  margin-right: -300px;
+  margin-right: -380px;
   margin-top: 1050px;
   z-index: 0;
 }
 .parallax #sec-12 {
   left: 0;
-  margin-left: -340px;
-  margin-top: -800px;
+  margin-left: -375px;
+  margin-top: -925px;
   z-index: 5;
 }
 .parallax #sec-14 {
@@ -367,6 +367,33 @@ ul.list li:before {
   margin-top: -300px;
   z-index: 5;
 }
+.parallax #sec-15 {
+  right: 0;
+  margin-right: -265px;
+  margin-top: 1360px;
+  z-index: 0;
+}
+.parallax #sec-16 {
+  left: 0;
+  margin-left: -300px;
+  margin-top: -1200px;
+  z-index: 5;
+}
+
+.parallax #sec-17 {
+  right: 0;
+  margin-right: -370px;
+  margin-top: 480px;
+  z-index: 0;
+}
+
+.parallax #sec-18 {
+  right: 0;
+  margin-right: -370px;
+  margin-top: 855px;
+  z-index: 0;
+}
+
 .svg-animation {
   position: absolute;
 }
@@ -463,8 +490,11 @@ ul.list li:before {
 .product .items .item {
   width: 249px;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 20px 10px;
   cursor: pointer;
+  font-family: "Philosopher";
+  font-weight: 700;
+  font-size: 18px;
 }
 .product .items .item:hover a img {
   -webkit-transform: translate3d(0, -20px, 0) translateX(-50%);
@@ -508,7 +538,7 @@ ul.list li:before {
   -webkit-perspective: 1000;
 }
 .product .items .item .description {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   position: relative;
   width: 240px;
   text-align: center;
@@ -546,8 +576,13 @@ ul.list li:before {
   height: 25px;
 }
 .product .items .item .description span {
+  max-height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px !important;
-  display: block;
+  box-sizing: border-box;
+  line-height: 17px;
   color: #fff;
   -webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
@@ -1008,7 +1043,9 @@ ul.list li:before {
   #sec-10,
   #sec-11,
   #sec-12,
-  #sec-13 {
+  #sec-13,
+  #sec-15,
+  #sec-16 {
     display: none !important;
   }
   .info .about .info__block .inner {

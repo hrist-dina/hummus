@@ -78,6 +78,12 @@ $(function(){
 		translate("#sec-12", 0, top / 5, 0);
 
 		translate("#sec-14", 0, top / 5, 0);
+
+		translate("#sec-15", 0, -top / 5, 0);
+		translate("#sec-16", 0, top / 5, 0);
+
+		translate("#sec-17", 0, -top / 5, 0);
+		translate("#sec-18", 0, -top / 5, 0);
 	});
 
 	// Навигация
