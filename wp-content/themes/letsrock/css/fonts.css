@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Philosopher-Bold';
+  src: url('fonts/Philosopher-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Philosopher-Bold.woff') format('woff'), url('fonts/Philosopher-Bold.ttf') format('truetype'), url('fonts/Philosopher-Bold.svg#Philosopher-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22UndergroundCYPro';
+  src: url('fonts/P22UndergroundCYPro-Book.eot?#iefix') format('embedded-opentype'), url('fonts/P22UndergroundCYPro-Book.otf') format('opentype'), url('fonts/P22UndergroundCYPro-Book.woff') format('woff'), url('fonts/P22UndergroundCYPro-Book.ttf') format('truetype'), url('fonts/P22UndergroundCYPro-Book.svg#P22UndergroundCYPro-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

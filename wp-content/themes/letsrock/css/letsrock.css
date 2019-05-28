@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'philosopherregular';
+    src: url('fonts/Philosopher.eot');
+    src: url('fonts/Philosopher.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Philosopher.woff2') format('woff2'),
+         url('fonts/Philosopher.woff') format('woff'),
+         url('fonts/Philosopher.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.modal-city .close{
+	position:relative;
+	z-index:9999999;
+}
+
+.modal-city .inner{
+	/*width: 300px;
+	height: 301px;*/
+	width: 1100px;
+	min-height: 301px;
+	min-height: 300px;
+	/*background-image: url('../img/modal-bg.jpg');*/
+	background-position: center bottom;
+	background-repeat: repeat;
+}
+
+.modal-city .content{
+	width: 100% !important;
+	margin: 15px 0 0 0 !important;
+	/* padding: 0 !important; */
+	text-align: center;
+}
+
+.modal-city .modal-city-button{
+	margin: 30px 0 20px 0;
+	display: inline-block;
+	padding: 10px 15px;
+	color: #FFF;
+	background: #e67e22;
+	border:1px solid #e67e22;
+	text-decoration: none;
+}
+
+.modal-city .modal-city-button:hover{
+	color: #e67e22;
+	background: #FFF;
+}
+
+.modal-city h5{
+	position:relative;
+	font-family: "Philosopher-Bold" !important;
+	font-size: 18px !important;
+}
+
+.modal-city h6{
+	margin: 0;
+	font-family: "Philosopher-Bold" !important;
+	font-size: 18px !important;
+}
+
+.modal-city h5:after{
+	content: '';
+	width: 203px;
+	height: 1px;
+	background-color: #bbbbbb;
+	position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -101px;
+}
+
+.modal-city ul{
+	margin: 22px 0 0 0 !important;
+}
+
+.modal-city ul li{
+	margin: 0 0 13px 0 !important;
+	display: inline-block !important;
+    width: 160px !important;
+    text-align: left !important;
+}
+
+.modal-city ul li a{
+	cursor: pointer;
+	text-decoration: none;
+	/*font-family: 'philosopherregular' !important;*/
+	font-size: 14px  !important;
+	color: #000;
+}
+
+.modal-city ul li a:hover{
+	color:#e67e22;
+	text-decoration: underline;
+}
+.modal-city ul li a.active{
+	color:#e67e22;
+	text-decoration: underline;
+}
+.old-site{
+	text-decoration: underline !important;
+}
+
+.old-site:hover{
+	text-decoration: none !important;
+}
+
+.honors .diplomas .item{
+	height: 480px;
+}
+
+.honors .diplomas .item .item__container {
+	justify-content: center;
+}
+
+.honors .medals .item {
+    height: 425px
+}
+
+.honors .medals .item .item__container {
+	justify-content: center;
+}
+
+.modal .inner {
+	height: auto;
+}
+
+.modal .inner .inner-content {
+	height: 100%;
+}
+
+.modal .inner .inner-content .content p {
+    padding: 0 !important;
+}
+
+.modal .inner .close {
+	z-index: 999;
+}
+
+.item__container{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.honors .diplomas .item{
+	justify-content: space-between !important;
+}
+
+.honors .medals .item{
+	justify-content: space-between !important;
+}
+
+.tabs__content p{
+	margin:0 !important;
+	padding:0 !important;
+}
+
+/*.contact .map-tabs .tabs__content {
+   width: 770px !important;
+}*/
+
+.contact .map-tabs {
+	flex-wrap: wrap;
+}
+
+
+/*.contact .map-tabs ul li{
+	width: 380px !important;
+}*/
+
+#all_maps{
+	display: none;
+	width:  770px;
+}
+
+#all_maps.active{
+	display: block;
+}
+
+.contact .map-tabs ul.tabs__caption {
+	width: 380px !important;
+}
+
+h2 {
+ font-size: 100px !important;
+ font-family: @font-titles !important;
+ font-weight: normal !important;
+ text-align: center !important;
+ padding: 20px 0 !important;
+ margin: 0 !important;
+}
+
+h3 {
+ font-family: @font-titles !important;
+ font-weight: normal !important;
+ font-weight: 400 !important;
+ font-size: 36px !important;
+ margin-top: 0 !important;
+}
+
+.modal-city .inner .inner-content .content ul {
+	-webkit-columns: 6;
+	columns: 6;
+}
+
+.tabs__online {
+	display: none;
+	width: 96.7%;
+	background: white;
+	padding: 20px;
+}
+
+.map-tabs.online-show {
+	height: 770px;
+}
+
+.map-tabs.online-show .tabs__online {
+	display: block;
+}
+
+/*
+.tabs__online.show ~ .tabs__caption {
+	position: relative;
+	top: -85px;
+}*/
+
+.online__shops {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+
+.online__shop {
+	display: inline-block;
+	text-align: center;
+    height: 70px;
+    width: auto;
+    padding: 10px 20px 30px;
+    transition: all .3s;
+}
+
+.online__shop a {
+	font-family: "Philosopher-Bold";
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition: all .3s;
+    display: block;
+    height: inherit;
+}
+
+.online__shop:hover a {
+	text-decoration: underline;
+}
+
+.online__shop:hover {
+	background: white !important;
+}
+
+.online__shop img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product_spec .items .item {
+	margin-bottom: 0;
+}
+
+.product_spec .items {
+	margin-top: 30px;
+}
+
+.product_spec .items .item > a > img {
+	margin-bottom: 0;
+}
+
+.modal .inner .inner-content .image {
+	height: 470px;
+}
+
+.product_spec .container::after {
+  position: absolute;
+  right: -90px;
+  bottom: 10px;
+  width: 197px;
+  height: 131px;
+  content: '';
+  background: url(../img/sostav.png) no-repeat center;
+  background-size: contain;
+}
+
+.modal-product .inner {
+  height: 470px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+/* news section */
+.news {
+  background: url(../img/bg-pattern.jpg) repeat;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.news * {
+  box-sizing: border-box;
+}
+
+.news-list {
+  display: block;
+  font-size: 0;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.news-item {
+  position: relative;
+  font-size: initial;
+  width: calc(33.333% - 20px);
+  height: 282px;
+  margin: 20px 15px;
+  display: inline-flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.news-item:nth-child(1),
+.news-item:nth-child(3n + 4) {
+  margin-left: 0;
+}
+
+.news-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.news-item__img {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.news-item__img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.news-item__info {
+  padding: 16px;
+}
+
+.news-item__title {
+  display: block;
+  margin: 0 0 10px;
+  font-family: "Philosopher-Bold";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.news-item__text {
+  margin: 0;
+  color: #707070;
+  height: 39px;
+  overflow: hidden;
+}
+
+.modal-news .inner {
+  width: 880px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-news .inner .inner-content {
+  flex-direction: column;
+}
+
+.modal-news__image {
+  position: relative;
+  display: block;
+  margin: 0 0 24px;
+  width: 100%;
+  height: 352px;
+  overflow: hidden;
+}
+
+.modal-news__image img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.modal-news__title {
+  display: block;
+  width: 100%;
+  padding: 0 32px;
+  font-family: "Philosopher-Bold";
+  font-size: 36px;
+  box-sizing: border-box;
+
+}
+
+.modal-news__content {
+  padding: 32px;
+  color: #707070;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 99;
+}
+
+.modal-news__content p {
+  margin: 0 0 10px;
+}
+
+.modal-news__content img {
+  max-width: 100%;
+  height: auto;
+  z-index: 99;
+}
+
+.btn {
+  height: 48px;
+  background: transparent;
+  border: 1px solid #000000;
+  font-size: 16px;
+  line-height: 48px;
+  padding: 0 16px;
+  min-width: 220px;
+  align-self: center;
+}
