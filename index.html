@@ -138,6 +138,57 @@
         </div>
     </div>
 </div>
+<div class="modal modal-ask-question js-modal-ask-question">
+    <div class="inner">
+        <a href="#" class="close"><img src="wp-content/themes/letsrock/img/close.svg" alt="" /></a>
+        <div class="modal__form">
+            <div class="modal__title">
+                Задать вопрос
+            </div>
+            <form action="" class="form js-ajax-form">
+                <label class="form-label">
+                    <input class="form-input js-ajax-field" data-field-req="true" type="text" name="name" placeholder="Фамилия Имя Отчество">
+                </label>
+                <label class="form-label">
+                    <input class="form-input js-ajax-field js-mask-phone" data-field-req="true" data-field-type="phone" type="text" name="phone" placeholder="Телефон">
+                </label>
+                <label class="form-label">
+                    <input class="form-input js-ajax-field" data-field-req="true" type="text" name="city" placeholder="Город">
+                </label>
+                <label class="form-label">
+                    <textarea class="form-textarea js-ajax-field" data-field-req="true" name="comment" placeholder="Комментарий"></textarea>
+                </label>
+                <div class="form-personal-data">
+                    <label class="checkbox">
+                        <input class="js-ajax-form-agree" type="checkbox" name="personal-data">
+                        <div class="checkbox__content">
+                            <div class="checkbox__box"></div>
+                            <div class="checkbox__name">Согласен на обработку персональных данных</div>
+                        </div>
+                    </label>
+                </div>
+                <div class="form-center">
+                    <button class="form-submit js-ajax-form-button" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="bg"></div>
+</div>
+<div class="modal modal-ask-question js-popup-result">
+    <div class="inner">
+        <a href="#" class="close"><img src="wp-content/themes/letsrock/img/close.svg" alt="" /></a>
+        <div class="modal__form">
+            <div class="modal__title js-popup-result-title"></div>
+            <p class="js-popup-result-description"></p>
+        </div>
+    </div>
+    <div class="bg"></div>
+</div>
+<div class="ask-question js-modal-ask-question-open">
+    <span>Задать вопрос</span>
+</div>
+
 <div class="navigation">
     <div class="container">
         <ul>
@@ -2841,6 +2892,7 @@
 <script src="wp-content/themes/letsrock/js/jquery-3.1.1.min.js"></script>
 <script src="wp-content/themes/letsrock/js/scrollreveal.min.js"></script>
 <script src="wp-content/themes/letsrock/js/slick.min.js"></script>
+<script src="wp-content/themes/letsrock/js/jquery.inputmask.min.js"></script>
 <script src="wp-content/themes/letsrock/js/lightbox.min.js"></script>
 <script src="wp-content/themes/letsrock/js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
